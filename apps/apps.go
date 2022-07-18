@@ -106,6 +106,7 @@ import (
 	"tidbyt.dev/community/apps/sfnextmuni"
 	"tidbyt.dev/community/apps/shopifychart"
 	"tidbyt.dev/community/apps/snyk"
+	"tidbyt.dev/community/apps/sportsrankings"
 	"tidbyt.dev/community/apps/soundtransit"
 	"tidbyt.dev/community/apps/sportsscores"
 	"tidbyt.dev/community/apps/sportsstandings"
@@ -245,6 +246,7 @@ func GetManifests() []manifest.Manifest {
 		sfnextmuni.New(),
 		shopifychart.New(),
 		snyk.New(),
+		sportsrankings.New(),
 		soundtransit.New(),
 		sportsscores.New(),
 		sportsstandings.New(),
